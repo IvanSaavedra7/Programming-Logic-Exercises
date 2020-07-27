@@ -1,0 +1,82 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{04DEC5E1-160E-4AE8-B20F-3930F2B6E91D}</ProjectGuid>
+    <OutputType>Exe</OutputType>
+    <RootNamespace>AppCap3</RootNamespace>
+    <AssemblyName>AppCap3</AssemblyName>
+    <TargetFrameworkVersion>v4.6.1</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+    <Deterministic>true</Deterministic>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Desenvolvimento1.cs" />
+    <Compile Include="Desenvolvimento10.cs" />
+    <Compile Include="Desenvolvimento11.cs" />
+    <Compile Include="Desenvolvimento12.cs" />
+    <Compile Include="Desenvolvimento13.cs" />
+    <Compile Include="Desenvolvimento14.cs" />
+    <Compile Include="Desenvolvimento15.cs" />
+    <Compile Include="Desenvolvimento16.cs" />
+    <Compile Include="Desenvolvimento17.cs" />
+    <Compile Include="Desenvolvimento18.cs" />
+    <Compile Include="Desenvolvimento19.cs" />
+    <Compile Include="Desenvolvimento2.cs" />
+    <Compile Include="Desenvolvimento20.cs" />
+    <Compile Include="Desenvolvimento21.cs" />
+    <Compile Include="Desenvolvimento22.cs" />
+    <Compile Include="Desenvolvimento23.cs" />
+    <Compile Include="Desenvolvimento24.cs" />
+    <Compile Include="Desenvolvimento25.cs" />
+    <Compile Include="Desenvolvimento26.cs" />
+    <Compile Include="Desenvolvimento27.cs" />
+    <Compile Include="Desenvolvimento28.cs" />
+    <Compile Include="Desenvolvimento3.cs" />
+    <Compile Include="Desenvolvimento4.cs" />
+    <Compile Include="Desenvolvimento5.cs" />
+    <Compile Include="Desenvolvimento6.cs" />
+    <Compile Include="Desenvolvimento7.cs" />
+    <Compile Include="Desenvolvimento8.cs" />
+    <Compile Include="Desenvolvimento9.cs" />
+    <Compile Include="Enter.cs" />
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>
